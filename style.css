@@ -1,12 +1,12 @@
 html, body {
     height: 100%;
     width: 100%;
-  }
+}
 *{
       margin: 0%;
       padding: 0%;
       font-family: sans-serif;
-  }
+}
 .container{
     width: 100%;
     height: 100vh;
@@ -14,22 +14,22 @@ html, body {
     padding: 0;
     font-family: sans-serif;
     background: #42655a;
-  }
+}
 .menu ul{
       display: inline-flex;
       margin: 50px;
-  }
-.menu ul li{
+}
+  .menu ul li{
       list-style: none;
       margin: 0 20px;
       
-  }
+}
 .menu ul li a{
       color: #ffffff;
-  }
+}
 .active{
       color:aqua !important;
-  }
+}
 .column1{
       position:absolute;
       height: 750 px;
@@ -64,15 +64,14 @@ html, body {
 
 .containers {
     text-align: center;
-    margin-top:52px;
 }
 button{
     font-size: 23px;
     background-color: rgba(189, 197, 199, 0.692);
     width: 92px;height: 60px;
-    border-radius:1px;
+    border-radius:21px;
     border-color: rgba(145, 150, 151, 0.692);
-    padding: 0px;
+    padding: 4px;
     margin:5px;
 }
 
@@ -80,10 +79,10 @@ button{
     margin: 0;
     font-family: sans-serif;
     background: #42655a;
-    padding:0;
-    border-radius:1px;
+    padding:16px;
+    border-radius:23px;
     display: inline-block;
-    border: 2px solid #000000;
+    border: 2px solid #42655a;
 }
 
 table{
