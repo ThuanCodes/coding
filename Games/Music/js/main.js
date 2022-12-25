@@ -45,7 +45,7 @@
                             className: "site-nav-middle",
                             children: Object(k.jsx)("a", {
                                 className: "site-nav-logo",
-                                href: "/chill-radio",
+                                href: "/index.html",
                                 children: Object(k.jsx)("img", { alt: "Chill Radio", src: "img/chill-logo.png" }),
                             }),
                         }),
