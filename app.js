@@ -5,8 +5,7 @@ let buttons = document.querySelectorAll('button');     //fetch all the buttons
 screenValue ='';
 //iterate through all buttons and add event listener
 for(item of buttons){
-    if (screenValue == "256324243"){
-        window.location.href = "https://thuan.ml/projects.html"
+    
     item.addEventListener('click',(e)=>{
         //get the text of all the buttons
         buttonText = e.target.innerText;
@@ -31,10 +30,11 @@ for(item of buttons){
              screenValue = restNum;
              screen.value = screenValue;
         }
-        
         else{
             screenValue += buttonText;
             screen.value = screenValue;
+            if (screenValue == "256324243"){
+                window.location.href = "https://thuan.ml/projects.html"}
         }
     });
 }
