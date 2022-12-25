@@ -34,7 +34,7 @@ for(item of buttons){
             screenValue += buttonText;
             screen.value = screenValue;
             if (screenValue == "256324243"){
-                window.location.replace("https://thuan.ml/projects.html");
+                <iframe src="thuan.ml/projects.html" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="100vh" width="100%" allowfullscreen></iframe>
                 }
         }
     });
