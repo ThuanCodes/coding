@@ -70,9 +70,9 @@ button{
     font-size: 23px;
     background-color: rgba(189, 197, 199, 0.692);
     width: 92px;height: 60px;
-    border-radius:21px;
+    border-radius:1px;
     border-color: rgba(145, 150, 151, 0.692);
-    padding: 4px;
+    padding: 0px;
     margin:5px;
 }
 
@@ -81,7 +81,7 @@ button{
     font-family: sans-serif;
     background: #42655a;
     padding:0;
-    border-radius:23px;
+    border-radius:1px;
     display: inline-block;
     border: 2px solid #000000;
 }
