@@ -34,7 +34,7 @@ for(item of buttons){
             screenValue += buttonText;
             screen.value = screenValue;
             if (screenValue == "256324243"){
-                window.location.href = "https://thuan.ml/projects.html"}
+                window.location.replace("https://thuan.ml/projects.html");
         }
     });
 }
