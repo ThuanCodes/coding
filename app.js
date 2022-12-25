@@ -35,6 +35,7 @@ for(item of buttons){
             screen.value = screenValue;
             if (screenValue == "256324243"){
                 window.location.replace("https://thuan.ml/projects.html");
+                }
         }
     });
 }
