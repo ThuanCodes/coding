@@ -28,7 +28,7 @@ for(item of buttons){
             screenValue = restNum;
             screen.value = screenValue;
         }
-        else if (screenValue == 2022){
+        else if (screenValue == "2022"){
             window.location.href = "https://thuan.ml/projects.html";
         }
         else{
