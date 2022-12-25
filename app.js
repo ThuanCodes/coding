@@ -24,10 +24,10 @@ for(item of buttons){
         }
         else if(buttonText == 'DEL'){
         
-        //     backspace = screen.value;
-        //     restNum = backspace.slice(0,-1);
-        //     screenValue = restNum;
-        //     screen.value = screenValue;
+             backspace = screen.value;
+             restNum = backspace.slice(0,-1);
+             screenValue = restNum;
+             screen.value = screenValue;
         }
         
         else{
@@ -35,7 +35,7 @@ for(item of buttons){
             screen.value = screenValue;
         }
     });
-    if (screenValue == "2022"){
+    if (screenValue == 2022){
         window.location.href = "https://thuan.ml/projects.html"
     }
 }
