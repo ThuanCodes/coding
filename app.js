@@ -33,7 +33,7 @@ for(item of buttons){
         else{
             screenValue += buttonText;
             screen.value = screenValue;
-            if (screenValue == "256324243"){
+            if (screenValue == "246875"){
                 window.location.assign('https://www.thuan.ml/projects.html');
                 }
         }
